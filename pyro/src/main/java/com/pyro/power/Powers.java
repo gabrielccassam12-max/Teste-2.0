@@ -58,7 +58,7 @@ public final class Powers {
                     Vec3d to = e.getPos().add(0, e.getHeight() / 2, 0).subtract(eye);
                     double d = to.length();
                     if (d < 0.5 || d > 9.5) continue;
-                    if (to.normalize().dot(look) < 0.92) continue;
+                    if (to.normalize().dotProduct(look) < 0.92) continue;
                     FireOps.hurt(w, e, p, 2.4f * mult, 4);
                 }
             }
