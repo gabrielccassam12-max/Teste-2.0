@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pyro",
+  "version": "${version}",
+  "name": "Pyro: Despertar do Fogo",
+  "description": "Pyrokinetic power with 3D cube-particle fire effects.",
+  "authors": [
+    "You"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pyro.Pyro"
+    ],
+    "client": [
+      "com.pyro.client.PyroClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
